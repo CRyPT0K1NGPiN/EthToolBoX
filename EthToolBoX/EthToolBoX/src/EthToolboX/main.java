@@ -33,6 +33,9 @@ public class main {
 	
 	   public static void initconfig(String args[]) throws IOException {
 	      Properties prop = readPropertiesFile("config.properties");
+		   // ~The Username/Password are just being used for 
+		   // ~testing purposes. The final configuration settings
+		   // ~Will be things like wallet.address, wallet.key, and whatever
 	      System.out.println("username: "+ prop.getProperty("username"));
 	      System.out.println("password: "+ prop.getProperty("password"));
 	   }
